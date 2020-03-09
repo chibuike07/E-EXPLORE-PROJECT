@@ -1,0 +1,50 @@
+.header_wrapper {
+  /* height: 5vh; */
+  padding-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 7vh;
+  background-color: #fff;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40%;
+  width: max-content;
+  font-size: small;
+}
+.ul .headLinks {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.right_navs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15%;
+}
+.right .sign_in {
+  margin-right: 10%;
+  width: max-content;
+  font-size: xx-small;
+}
+.sign_in .sign_in_link {
+  text-decoration: none;
+}
+
+.right_navs button {
+  margin-left: 30%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  width: max-content;
+  text-transform: uppercase;
+  font-size: 9px;
+}

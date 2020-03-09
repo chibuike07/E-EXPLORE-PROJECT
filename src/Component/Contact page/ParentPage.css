@@ -1,0 +1,101 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mother_container {
+  background-color: #ffffff;
+}
+.wrapper {
+  width: 100%;
+  /* background-color: rgb(71, 39, 73); */
+  background-color: #5aafd8;
+  height: 50vh;
+  margin: auto;
+}
+
+.text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5%;
+}
+.text h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.text p:nth-child(1) {
+  /* color: red; */
+  margin-left: 12%;
+}
+.text p a {
+  color: aqua;
+}
+.text p:nth-child(2) span {
+  margin-left: 45%;
+}
+
+.formwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 40%;
+  height: 60vh;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  flex-direction: column;
+  z-index: 10;
+}
+.formwrapper form {
+  margin-top: 5%;
+}
+
+.formwrapper form label {
+  color: #000;
+  font-size: smaller;
+  font-weight: bold;
+  line-height: 2;
+}
+.formwrapper form .button {
+  margin-top: 1em;
+}
+.formwrapper form button {
+  padding: 12px;
+  width: 20%;
+  color: #fff;
+}
+.formwrapper input {
+  border: 2px solid #5aafd8;
+  width: 30vw;
+  height: 6vh;
+}
+.formwrapper textarea {
+  border: 2px solid #5aafd8;
+  width: 30vw;
+  height: 9vh;
+}
+.formwrapper .policy {
+  margin-left: -60%;
+  margin-top: 3%;
+  font-size: small;
+}
+.formwrapper .policy a {
+  text-decoration: none;
+  border-bottom: 2px solid blue;
+}
+
+::placeholder {
+  padding-left: 10px;
+  font-size: smaller;
+  opacity: 0.8;
+}
+.White_background {
+  background-color: #ffffff;
+  height: 50vh;
+}
