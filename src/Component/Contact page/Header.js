@@ -1,7 +1,7 @@
 import React from "react";
 import Links from "../Reuseable_Component/Links";
 import Button from "../Reuseable_Component/Button";
-import "./Header.css";
+import "../Styles/Header.css";
 const NavBar = () => {
   return (
     <>

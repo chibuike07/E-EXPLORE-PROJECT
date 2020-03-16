@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import HintText from "./HintText";
 import Form from "./form";
-import "./ParentPage.css";
+import "../Styles/ParentPage.css";
 const ParentPage = () => {
   return (
     <div className="mother_container">
