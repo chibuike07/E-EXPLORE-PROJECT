@@ -14,7 +14,7 @@ const Form = props => {
         <br />
         <label htmlFor="SUbject">SUbject</label>
         <br />
-        <Inputs type={"text"} place />
+        <Inputs type={"text"} />
         <br />
         <br />
         <label htmlFor="How can will help?">How can will help?</label>

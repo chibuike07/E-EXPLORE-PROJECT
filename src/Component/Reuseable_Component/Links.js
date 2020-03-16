@@ -1,10 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Links = props => {
   return (
-    <a href="/" style={{ color: props.color }} className={props.className}>
+    <Link
+      to={props.path}
+      style={{ color: props.color }}
+      className={props.className}
+    >
       {props.title}
-    </a>
+    </Link>
   );
 };
 export default Links;
