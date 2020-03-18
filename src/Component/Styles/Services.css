@@ -18,9 +18,9 @@
 .logo{
     height: 20px;
     width: 20px;
-    border: 2px solid #2e9dcf;
+    border: 2px solid #5aafd8;
     border-radius: 50%; 
-    background-color: #2e9dcf;
+    background-color: #5aafd8;
 }
 
 .ltext{
@@ -42,7 +42,7 @@
 
 
 .parent{
-    background-color: #1575a8;
+    background-color: #5aafd8;
 
 }
 
@@ -54,13 +54,13 @@
     position: absolute;
    height: 80vh;
    width: 100%;
-   border: 1px solid #2b313f;
+   border: 1px solid #8dc2e4;;
    /* border-radius: 50%; */
    /* color: rebeccapurple; */
    /* margin-top: -10%; */
    /* left: -20%; */
    /* transform: rotate(-10deg); */
-   background-color: #2b313f;
+   background-color: #8dc2e4;;
    /* margin-left: 50px; */
 
    /* border-top-right-radius: 20%; */
@@ -92,6 +92,7 @@
 .line{
     border: 2px solid white;
     width: 100%;
+    margin-top: -3%;
   
 }
 
@@ -106,7 +107,7 @@ flex-wrap: wrap;
 }
 
 span{
-    color: #4093b0;
+    color: #5aafd8;
 }
 
 .middle{
@@ -136,7 +137,7 @@ h2{
 }
 
 .service{
-    color: #2a8ab6;
+    color: #5aafd8;
     font-family: serif;
 }
 
@@ -171,9 +172,9 @@ h2{
 .icon{
     height: 10vh;
     width: 10%;
-    border: 2px solid #278fc2;
+    border: 2px solid #5aafd8;
     border-radius: 50%;
-    background-color:#278fc2;
+    background-color:#5aafd8;
 }
 
 
@@ -223,7 +224,7 @@ h2{
     flex-basis: 50%;
     display: flex;
     height: 13vh;
-    background-color: #2992cb;
+    background-color: #82c6e7;
     align-items: center;
     justify-content: center;
     color: white;
@@ -258,7 +259,7 @@ h2{
     flex-basis: 50%;
     display: flex;
     height: 13vh;
-    background-color: #116ba0;
+    background-color: #5aafd8;
     align-items: center;
     justify-content: center;
     color: white;

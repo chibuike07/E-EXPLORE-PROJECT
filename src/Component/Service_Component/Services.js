@@ -2,25 +2,6 @@ import React from "react";
 import "../Styles/Services.css";
 function Services() {
   return (
-    //     <div className='bottom'>
-    //     <div className='left'>
-
-    //     <div className='left-cont'>
-    //     <h4> <b> ABOUT</b> <span>us</span></h4>
-    //     <p>this is a text</p>
-    //     </div>
-    //     </div>
-
-    //     <div className='right'>
-    //     <div className='right-cont'>
-    //     <h4> <b>CONTACT </b> <span>us</span></h4>
-    //     <p>this is a text content</p>
-    //     </div>
-    //     </div>
-
-    //  </div>
-
-    // <div className='second-div'>
 
     <div>
       <div className="parent">
@@ -82,7 +63,7 @@ function Services() {
               <div className="left-side2">
                 <div className="icon"></div>
                 <div className="left-text">
-                  <h4 className="a">BUSINESS RELATIONSHIP</h4>
+                  <h4 className="a">Home Delivery</h4>
                   <p className="a">our Business plan</p>
                 </div>
               </div>
