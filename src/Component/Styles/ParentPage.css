@@ -8,7 +8,6 @@
 }
 .wrapper {
   width: 100%;
-  /* background-color: rgb(71, 39, 73); */
   background-color: #5aafd8;
   height: 50vh;
   margin: auto;
@@ -28,7 +27,6 @@
   text-transform: capitalize;
 }
 .text p:nth-child(1) {
-  /* color: red; */
   margin-left: 12%;
 }
 .text p a {
@@ -96,6 +94,6 @@
   opacity: 0.8;
 }
 .White_background {
-    background-color: #ffffff;
-    height: 50vh;
+  background-color: #ffffff;
+  height: 50vh;
 }
